@@ -188,12 +188,12 @@ Built during:
 
 ## 🌟 Project Highlights
 
-🚀 Built during a 30-hour offline hackathon
-👩‍💻 Developed collaboratively under real-time pressure
-🔥 Integrated Firebase for live complaint monitoring
-🗺️ Implemented OpenStreetMap-based risk visualization
-📊 Designed dynamic authority analytics dashboards
-📱 Focused on modern Android UI/UX experience
+- 🚀 Built during a 30-hour offline hackathon
+- 👩‍💻 Developed collaboratively under real-time pressure
+- 🔥 Integrated Firebase for live complaint monitoring
+- 🗺️ Implemented OpenStreetMap-based risk visualization
+- 📊 Designed dynamic authority analytics dashboards
+- 📱 Focused on modern Android UI/UX experience
 
 Organized by:
 
