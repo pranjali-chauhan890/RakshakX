@@ -62,32 +62,50 @@ The application allows citizens to report unsafe incidents while authorities can
 # 📸 Screenshots
 
 ## Splash Screen
-<!-- Add Splash Screen Here -->
+
+![Splash Screen](Splash%20Screen.jpeg)
+
+---
+
+## Welcome Screen
+
+![Welcome Screen](Welcome%20Screen.jpeg)
 
 ---
 
 ## Login Screen
-<!-- Add Login Screen Here -->
+
+![Login Screen](Login%20Screen.jpeg)
 
 ---
 
-## Citizen Dashboard
-<!-- Add Dashboard Screenshot Here -->
+## Risk Map Visualization (Citizen)
+
+![Risk Map Citizen](Risk%20map%20Visualization%20(Citizen).jpeg)
+
+---
+
+## Citizens Hamburger Menu
+
+![Citizen Menu](Citizens%20Hamburger%20menu.jpeg)
 
 ---
 
 ## SOS Screen
-<!-- Add SOS Screen Here -->
+
+![SOS Screen](SOS%20Screen.jpeg)
 
 ---
 
 ## Authority Dashboard
-<!-- Add Authority Dashboard Screenshot Here -->
+
+![Authority Dashboard](Authority%20Dashboard.jpeg)
 
 ---
 
-## Risk Map Visualization
-<!-- Add Map Screenshot Here -->
+## Risk Map Visualization (Authority)
+
+![Risk Map Authority](Risk%20map%20Visualization%20(Authority).jpeg)
 
 ---
 
