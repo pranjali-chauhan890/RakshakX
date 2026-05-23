@@ -48,14 +48,16 @@ The application allows citizens to report unsafe incidents while authorities can
 
 # 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| Java | Android App Development |
-| XML | UI Design |
-| Firebase Realtime Database | Backend & Real-time Data |
-| Firebase Authentication | User Login System |
-| Google Maps API | Risk Zone Visualization |
-| Material Design Components | Modern UI |
+| Technology                 | Purpose                       |
+| -------------------------- | ----------------------------- |
+| Java                       | Android App Development       |
+| XML                        | UI Design                     |
+| Firebase Realtime Database | Backend & Real-time Data      |
+| Firebase Authentication    | User Authentication           |
+| OpenStreetMap              | Map Rendering & Visualization |
+| GeoMapping                 | Location-based Risk Mapping   |
+| Material Design Components | Modern UI Components          |
+
 
 ---
 
