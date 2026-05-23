@@ -186,7 +186,7 @@ Built during:
 
 ## 🚀 HackNovate 2K26
 
-##🌟 Project Highlights
+## 🌟 Project Highlights
 
 🚀 Built during a 30-hour offline hackathon
 👩‍💻 Developed collaboratively under real-time pressure
