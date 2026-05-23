@@ -1,0 +1,31 @@
+{
+  "locations": [
+    {
+      "area_name": "Downtown Crossing",
+      "latitude": 42.3555,
+      "longitude": -71.0605,
+      "crime_type": "theft",
+      "severity": 3,
+      "reports_count": 45,
+      "timestamp": "2024-01-15"
+    },
+    {
+      "area_name": "Central Station",
+      "latitude": 42.3550,
+      "longitude": -71.0620,
+      "crime_type": "assault",
+      "severity": 5,
+      "reports_count": 28,
+      "timestamp": "2024-01-14"
+    },
+    {
+      "area_name": "Riverside Park",
+      "latitude": 42.3580,
+      "longitude": -71.0580,
+      "crime_type": "vandalism",
+      "severity": 2,
+      "reports_count": 12,
+      "timestamp": "2024-01-10"
+    }
+  ]
+}

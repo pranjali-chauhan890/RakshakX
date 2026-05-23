@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#0F172A"
+    android:padding="20dp">
+
+    <!-- Top Space -->
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <!-- App Title -->
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake SOS"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"/>
+
+    <!-- Status -->
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shake Phone For Emergency"
+        android:textColor="#94A3B8"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Space -->
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+
+    <!-- SOS Circle -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        app:cardCornerRadius="130dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="#EF4444">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOS"
+                android:textColor="#FFFFFF"
+                android:textSize="54sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shake To Activate"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Space -->
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+
+    <!-- Cancel Button -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancel"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Cancel SOS"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#F59E0B"
+        android:visibility="gone"
+        app:cornerRadius="18dp"/>
+
+    <!-- Add Contact Button -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddContact"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Add Emergency Contact"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2563EB"
+        app:cornerRadius="18dp"/>
+
+</LinearLayout>

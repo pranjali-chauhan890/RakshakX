@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F7F4">
+
+    <!-- TOP -->
+    <View
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/top_shape"/>
+
+    <!-- BOTTOM -->
+    <View
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-120dp"
+        android:background="@drawable/bottom_shape"/>
+
+    <!-- CONTENT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/ic_app_logo"
+            android:contentDescription="RakshaX Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to"
+            android:textColor="#0B1A6D"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RakshaX"
+            android:id="@+id/txtTitle"
+            android:textColor="#A52C4B"
+            android:textStyle="bold"
+            android:textSize="42sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Protection.\nStronger Every Day."
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- 🆘 EMERGENCY CALL BUTTON (112) - Added before Get Started -->
+        <Button
+            android:id="@+id/btnEmergencyCall"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_emergency_red"
+            android:text=" EMERGENCY 112 "
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Get Started Button (Solid Fill) -->
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/button_bg"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- I Already Have An Account Button (Only Blue Border, Rounded) -->
+        <Button
+            android:id="@+id/btnAlready"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_outline_blue"
+            android:text="I Already Have An Account"
+            android:textAllCaps="false"
+            android:textColor="#2196F3"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

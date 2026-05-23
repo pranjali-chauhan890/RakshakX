@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_area_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Area Name (e.g., Downtown Mall)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg" />
+
+    <Spinner
+        android:id="@+id/spinner_crime_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <Spinner
+        android:id="@+id/spinner_severity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Description (optional)"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_bg" />
+
+    <Button
+        android:id="@+id/btn_submit_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Report"
+        android:backgroundTint="#4CAF50" />
+
+</LinearLayout>
