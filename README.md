@@ -61,51 +61,48 @@ The application allows citizens to report unsafe incidents while authorities can
 
 # 📸 Screenshots
 
-## Splash Screen
+<div align="center">
 
-![Splash Screen](Splash%20Screen.jpeg)
+<h3>🚀 Splash Screen</h3>
+<img src="Splash%20Screen.jpeg" width="250"/>
 
----
+<br><br>
 
-## Welcome Screen
+<h3>👋 Welcome Screen</h3>
+<img src="Welcome%20Screen.jpeg" width="250"/>
 
-![Welcome Screen](Welcome%20Screen.jpeg)
+<br><br>
 
----
+<h3>🔐 Login Screen</h3>
+<img src="Login%20Screen.jpeg" width="250"/>
 
-## Login Screen
+<br><br>
 
-![Login Screen](Login%20Screen.jpeg)
+<h3>🗺️ Risk Map Visualization (Citizen)</h3>
+<img src="Risk%20map%20Visualization%20(Citizen).jpeg" width="250"/>
 
----
+<br><br>
 
-## Risk Map Visualization (Citizen)
+<h3>☰ Citizens Hamburger Menu</h3>
+<img src="Citizens%20Hamburger%20menu.jpeg" width="250"/>
 
-![Risk Map Citizen](Risk%20map%20Visualization%20(Citizen).jpeg)
+<br><br>
 
----
+<h3>🚨 SOS Screen</h3>
+<img src="SOS%20Screen.jpeg" width="250"/>
 
-## Citizens Hamburger Menu
+<br><br>
 
-![Citizen Menu](Citizens%20Hamburger%20menu.jpeg)
+<h3>📊 Authority Dashboard</h3>
+<img src="Authority%20Dashboard.jpeg" width="250"/>
 
----
+<br><br>
 
-## SOS Screen
+<h3>🛡️ Risk Map Visualization (Authority)</h3>
+<img src="Risk%20map%20Visualization%20(Authority).jpeg" width="250"/>
 
-![SOS Screen](SOS%20Screen.jpeg)
+</div>
 
----
-
-## Authority Dashboard
-
-![Authority Dashboard](Authority%20Dashboard.jpeg)
-
----
-
-## Risk Map Visualization (Authority)
-
-![Risk Map Authority](Risk%20map%20Visualization%20(Authority).jpeg)
 
 ---
 
