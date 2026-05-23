@@ -15,31 +15,30 @@
 
 # 📌 Overview
 
-RakshakX is a smart citizen safety and urban risk monitoring platform developed during **HackNovate 2K26**.
+RakshakX is an Android-based citizen safety and urban risk monitoring platform developed during **HackNovate 2K26**.
 
 The project focuses on improving public safety through:
+- 🚨 SOS emergency support
+- 📍 Unsafe area reporting
+- 🗺️ Risk zone visualization
+- 📊 Real-time authority dashboard analytics
+- 🔥 Dynamic risk monitoring
 
-- 🚨 SOS emergency support  
-- 📍 Unsafe area reporting  
-- 🗺️ Risk zone visualization  
-- 📊 Real-time authority dashboards  
-- 🔥 Dynamic risk analytics  
-
-The application allows citizens to report unsafe incidents while authorities can monitor high-risk zones using a live analytics dashboard.
+The application allows citizens to report unsafe incidents while authorities can monitor and analyze high-risk areas using live Firebase data.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-## 👤 Citizen Features
+## 👤 Citizen Side
 - 🚨 SOS Emergency Trigger
 - 📍 Unsafe Area Reporting
 - 📝 Complaint Submission
-- 📱 Modern Android UI
 - 🔥 Real-time Firebase Updates
+- 📱 Clean and Modern Android UI
 
-## 👮 Authority Features
-- 📊 Live Analytics Dashboard
+## 👮 Authority Side
+- 📊 Live Dashboard Analytics
 - 🗺️ Risk Zone Monitoring
 - 📈 Rule-based Risk Scoring
 - 📌 Complaint Tracking
@@ -49,76 +48,52 @@ The application allows citizens to report unsafe incidents while authorities can
 
 # 🛠️ Tech Stack
 
-| Technology | Usage |
+| Technology | Purpose |
 |---|---|
 | Java | Android App Development |
 | XML | UI Design |
-| Firebase Realtime Database | Backend & Live Data |
-| Firebase Authentication | User Authentication |
+| Firebase Realtime Database | Backend & Real-time Data |
+| Firebase Authentication | User Login System |
 | Google Maps API | Risk Zone Visualization |
-| Material Design | Modern UI Components |
+| Material Design Components | Modern UI |
 
 ---
 
 # 📸 Screenshots
 
-## Recommended Screenshots To Add
-
-You should add these screenshots later:
-
-| Screenshot | Why Add It |
-|---|---|
-| Splash Screen | Shows UI quality |
-| Login/Register Screen | Authentication flow |
-| Citizen Dashboard | Main functionality |
-| SOS Screen | Core safety feature |
-| Authority Dashboard | Analytics showcase |
-| Map Risk Zones | Most impressive feature |
-
----
-
-# 📷 How To Add Screenshots
-
-## Step 1
-Create a folder inside project:
-
-```plaintext
-screenshots
-```
-
----
-
-## Step 2
-Add images like:
-
-```plaintext
-screenshots/splash.png
-screenshots/dashboard.png
-screenshots/map.png
-screenshots/sos.png
-```
-
----
-
-## Step 3
-Add them in README like this:
-
-```md
 ## Splash Screen
-![Splash Screen](screenshots/splash.png)
+<!-- Add Splash Screen Here -->
 
-## Dashboard
-![Dashboard](screenshots/dashboard.png)
+---
 
-## Risk Map
-![Risk Map](screenshots/map.png)
-```
+## Login Screen
+<!-- Add Login Screen Here -->
+
+---
+
+## Citizen Dashboard
+<!-- Add Dashboard Screenshot Here -->
+
+---
+
+## SOS Screen
+<!-- Add SOS Screen Here -->
+
+---
+
+## Authority Dashboard
+<!-- Add Authority Dashboard Screenshot Here -->
+
+---
+
+## Risk Map Visualization
+<!-- Add Map Screenshot Here -->
 
 ---
 
 # ⚙️ Installation
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/pranjali-chauhan890/RakshakX.git
@@ -126,21 +101,15 @@ git clone https://github.com/pranjali-chauhan890/RakshakX.git
 
 ---
 
-## 2️⃣ Open In Android Studio
+## Open In Android Studio
 
-Open the project folder in Android Studio.
-
----
-
-## 3️⃣ Sync Gradle
-
-Wait for all dependencies to download and sync properly.
+Open the project and allow Gradle sync to complete.
 
 ---
 
-## 4️⃣ Add Firebase Configuration
+## Firebase Setup
 
-Place your:
+Place:
 
 ```plaintext
 google-services.json
@@ -154,7 +123,7 @@ app/
 
 ---
 
-## 5️⃣ Run The Application
+## Run Application
 
 Connect an Android device or emulator and run the app.
 
@@ -164,16 +133,15 @@ Connect an Android device or emulator and run the app.
 
 RakshakX uses a rule-based risk analysis mechanism.
 
-### Risk Calculation Logic
-
+### Risk Logic
 - Complaint severity increases risk score
-- Complaint frequency affects area risk level
-- Locations are dynamically categorized into:
+- Complaint frequency affects risk level
+- Locations are categorized dynamically into:
   - 🔴 High Risk
   - 🟡 Medium Risk
   - 🟢 Low Risk
 
-The dashboard analytics update automatically using real-time Firebase reports.
+Dashboard insights update automatically using real-time Firebase complaint data.
 
 ---
 
@@ -181,7 +149,7 @@ The dashboard analytics update automatically using real-time Firebase reports.
 
 - 🤖 AI/ML-based prediction system
 - 🌐 Multilingual support
-- 📶 Offline emergency mode
+- 📶 Offline emergency support
 - 🛣️ Safer route recommendations
 - 🔔 Push notifications
 - 🧠 TensorFlow Lite integration
@@ -190,8 +158,8 @@ The dashboard analytics update automatically using real-time Firebase reports.
 
 # 👩‍💻 Authors
 
-- **Pranjali Chauhan**
-- **Vaishnavi Pawar**
+- Pranjali Chauhan
+- Vaishnavi Pawar
 
 ---
 
