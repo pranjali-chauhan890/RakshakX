@@ -24,7 +24,7 @@ The project focuses on improving public safety through:
 - 📊 Real-time authority dashboard analytics
 - 🔥 Dynamic risk monitoring
 
-The application allows citizens to report unsafe incidents while authorities can monitor and analyze high-risk areas using live Firebase data.
+The application enables citizens to report unsafe incidents in real time, while authorities can monitor, analyze, and visualize high-risk areas through dynamic dashboard analytics.
 
 ---
 
@@ -186,12 +186,21 @@ Built during:
 
 ## 🚀 HackNovate 2K26
 
+🌟 Project Highlights
+🚀 Built during a 30-hour offline hackathon
+👩‍💻 Developed collaboratively under real-time pressure
+🔥 Integrated Firebase for live complaint monitoring
+🗺️ Implemented OpenStreetMap-based risk visualization
+📊 Designed dynamic authority analytics dashboards
+📱 Focused on modern Android UI/UX experience
+
 Organized by:
 
 **Karmaveer Bhaurao Patil College of Engineering, Satara**
+
 
 ---
 
 # 📄 License
 
-This project is developed for educational and hackathon purposes.
+This project was developed for educational, learning, and hackathon demonstration purposes.
