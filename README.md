@@ -184,9 +184,10 @@ Dashboard insights update automatically using real-time Firebase complaint data.
 
 Built during:
 
-# 🚀 HackNovate 2K26
+## 🚀 HackNovate 2K26
 
-🌟 Project Highlights
+##🌟 Project Highlights
+
 🚀 Built during a 30-hour offline hackathon
 👩‍💻 Developed collaboratively under real-time pressure
 🔥 Integrated Firebase for live complaint monitoring
